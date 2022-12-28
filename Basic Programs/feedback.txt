@@ -1,0 +1,6 @@
+
+
+- file name needs to be passed as userInput
+- arguments like -lmw needs to be passed as arguments
+    ex: java WordCount -lmw Spanish.txt
+- Break into smaller functions
