@@ -59,7 +59,14 @@ public class BinaryTree {
     }
 
     public static void main(String[] args) {
-        TNode tNode = new TNode(1, new TNode(2, new TNode(4,null,null), new TNode(5, null, null)), new TNode(3, new TNode(6, null, null), new TNode(7, null, null)));
+        TNode tNode =
+                new TNode(1,
+                        new TNode(2,
+                                new TNode(4,null,null),
+                                new TNode(5, null, null)),
+                        new TNode(3,
+                                new TNode(6, null, null),
+                                new TNode(7, null, null)));
         BinaryTree binaryTree = new BinaryTree();
 
         // depth first search Traversing
