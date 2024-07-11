@@ -3,7 +3,7 @@ import java.util.HashMap;
 public class AreArraysEqual {
 
     public boolean isEqual(long A[], long B[], int N){
-        HashMap<Long, Integer> count = new HashMap<Long, Integer>(N);
+        HashMap<Long, Integer> count = new HashMap<>(N);
         for(int i=0; i<N; i++){
             if(count.containsKey(A[i])){
                 count.put(A[i], count.get(A[i]) + 1);

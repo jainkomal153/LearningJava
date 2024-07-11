@@ -29,7 +29,7 @@ public class SortAnArray {
     }
 
     public static void main(String[] args) {
-        int[] a ={2};
+        int[] a ={2, 3, 1, 6, 3, 8};
         SortAnArray sortAnArray = new SortAnArray();
         sortAnArray.sort(a, a.length);
         for(int num : a){
